@@ -1,2 +1,3 @@
+from string import capwords
 def cap_text(text):
-    return text.title()  # replace .capitalize() with .title()
+    return capwords(text)  # replace .capitalize() with .title()
